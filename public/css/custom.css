@@ -1,0 +1,744 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.l-theme{
+    min-height: 100%;
+}
+
+.color-sand{
+    color: #c4a683;
+}
+
+.color-red{
+    color: red;
+}
+
+.category-right{
+    border-right: solid 1px #ccc;
+    padding-right: 12px;
+    margin-right: 12px;
+    line-height: 1.5;
+}
+.category-right p{
+    margin-bottom: 0;
+}
+
+.admin-nav .nav-link , .admin-nav .navbar-brand{
+    text-shadow: none !important;
+    color:black;
+}
+
+
+.color-white {
+    color: white;
+}
+
+.bg-grey {
+    background-color: #c0c0c0;
+}
+
+.item-section-4 a {
+    color: black;
+}
+
+.item-section-4 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .dropdown-level {
+        position: absolute;
+        left: 170px;
+        top: 190px;
+    }
+}
+
+.contact-form-section {
+    color: #444444;
+    font-weight: 200;
+}
+
+.contact-form-section h5 {
+    font-family: "Libre Baskerville";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    font-style: normal;
+    color: #071141;
+}
+
+.contact-form-back {
+    padding: 100px 0;
+}
+
+.hours {
+    padding: 20px 34px;
+    background-color: #c0c0c0;
+}
+
+ul.sponser-type li a.active {
+    color: #fe533d !important;
+}
+
+ul.sponser-type li a {
+    padding: 5px 10px;
+    color: #495057 !important;
+}
+
+.nav.nav-tabs li a {
+    border: 0;
+}
+
+.nav.nav-tabs li:not(:last-child) a {
+    border-right: 1px solid #ccc !important;
+    border-radius: 0 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 5px;
+}
+
+.card-body h4 {
+    color: #151c32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1.6rem;
+}
+
+.accordion .card-body {
+    padding: 0 1.25rem 1.75rem 2.25rem !important;
+}
+
+.contact-form-tag {
+    color: #222222;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.dropdown:hover > .dropdown-menu, .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.programe {
+    width: 38px;
+    height: 38px;
+}
+
+.programe-1 {
+    background-image: url("../images/icons_program/icon_master.png");
+}
+
+.item-section-4:hover .programe-1 {
+    background-image: url("../images/icons_program/icon_master_hover.png");
+}
+
+.programe-2 {
+    background-image: url("../images/icons_program/icon_study.png");
+}
+
+.item-section-4:hover .programe-2 {
+    background-image: url("../images/icons_program/icon_study_hover.png");
+}
+
+.programe-3 {
+    background-image: url("../images/icons_program/icon_work.png");
+}
+
+.item-section-4:hover .programe-3 {
+    background-image: url("../images/icons_program/icon_work_hover.png");
+}
+
+.programe-4 {
+    background-image: url("../images/icons_program/icon_caregiver.png");
+}
+
+.item-section-4:hover .programe-4 {
+    background-image: url("../images/icons_program/icon_caregiver_hover.png");
+}
+
+.programe-5 {
+    background-image: url("../images/icons_program/icon_lmia.png");
+}
+
+.item-section-4:hover .programe-5 {
+    background-image: url("../images/icons_program/icon_lmia_hover.png");
+}
+
+.programe-6 {
+    background-image: url("../images/icons_program/icon_express.png");
+}
+
+.item-section-4:hover .programe-6 {
+    background-image: url("../images/icons_program/icon_express_hover.png");
+}
+
+.about-us-back {
+    position: relative;
+    background-image: url("../images/about/banner_about.jpg");
+    background-size: cover;
+}
+
+.canada-back {
+    position: relative;
+    background-image: url("../images/canada/banner_canada.jpg");
+    background-size: cover;
+}
+
+.family-back {
+    position: relative;
+    background-image: url("../images/services/banner_family_sponsorship.jpg");
+    background-size: cover;
+}
+
+.business-back {
+    position: relative;
+    background-image: url("../images/services/banner_startup_visa.jpg");
+    background-size: cover;
+}
+
+.bcpnp-back {
+    position: relative;
+    background-image: url("../images/services/banner_bcpnp.jpg");
+    background-size: cover;
+}
+
+.caregiver-back {
+    position: relative;
+    background-image: url("../images/services/banner_caregiver.jpg");
+    background-size: cover;
+}
+
+.citizenship-back {
+    position: relative;
+    background-image: url("../images/services/banner_citizenship_application.jpg");
+    background-size: cover;
+}
+
+.contact-back {
+    position: relative;
+    background-image: url("../images/contact/banner_contact.jpg");
+    background-size: cover;
+}
+
+.blog-back {
+    position: relative;
+    background-image: url("../images/blog/imc_banner_news.jpg");
+    background-size: cover;
+}
+
+.blog-list
+{
+    padding: 100px  0;
+}
+
+.lmia-back {
+    position: relative;
+    background-image: url("../images/services/banner_lmia.jpg");
+    background-size: cover;
+}
+
+.pr-back {
+    position: relative;
+    background-image: url("../images/services/banner_pr.jpg");
+    background-size: cover;
+}
+
+.studyvisa-back {
+    position: relative;
+    background-image: url("../images/services/banner_study_permit.jpg");
+    background-size: cover;
+}
+
+.visitor-back {
+    position: relative;
+    background-image: url("../images/services/banner_visitor_visa.jpg");
+    background-size: cover;
+}
+
+.workvisa-back {
+    position: relative;
+    background-image: url("../images/services/banner_work_permit.jpg");
+    background-size: cover;
+}
+
+.express-entry-back {
+    position: relative;
+    background-image: url("../images/services/banner_express_entry.jpg");
+    background-size: cover;
+}
+.event-back {
+    position: relative;
+    background-image: url("../images/webinar_registration/banner_webinar.jpg");
+    background-size: cover;
+}
+
+.table-bottom td {
+    border-bottom: 1px solid #c0c0c0c0;
+}
+
+.sp-image-container::after {
+    background-color: transparent;
+}
+
+.carousel-text h2 {
+    text-shadow: 2px 2px 3px black;
+}
+
+.carousel-text h4 {
+    text-shadow: 2px 2px 3px black;
+}
+
+.sp-image {
+    width: 100% !important;
+    /*height: auto !important;*/
+}
+
+.footer-head-service h4 {
+    margin-left: -20px;
+}
+
+.footer-head-service .line-red-2 {
+    margin-left: -20px;
+}
+
+.b-main-slider__item_2 .carousel-text {
+    top: -50px;
+}
+
+.carousel-text {
+    text-align: left;
+    top: 0;
+    left: 0;
+    position: relative;
+    padding-top: 415px;
+}
+
+.color-blue {
+    color: #071141 !important;
+}
+
+.color-black {
+    color: #444444 !important;
+}
+
+.list-left .color-black::before {
+    border-color: transparent #444444 !important;
+
+}
+
+.list-second-style li {
+    list-style: disc !important;
+}
+
+.list-second-style li::before {
+    border: none !important;
+}
+
+.contact-form-section input[type="text"], .contact-form-section input[type="email"], .contact-form-section input[type="tel"] {
+    height: 50px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    color: #444444;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+}
+
+.contact-form-section form input::placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact-form-section form input:placeholder-shown {
+    color: #eeeeee;
+}
+
+
+.contact-form-section textarea::placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact-form-section textarea {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #dbdbdb;
+
+}
+
+.contact-form-section input[type="submit"], .register-button {
+    width: 180px;
+    height: 55px;
+    border-radius: 2px;
+    border: 1px solid #7685b1;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 40px;
+    background: #9ba6c7;
+}
+
+.contact-form-section input[type="submit"]:hover, .register-button:hover {
+    background-color: #7685b1;
+    color: #ffffff;
+}
+
+.register-button {
+    margin-top: 20px;
+}
+
+.webinar-contact-form {
+    padding: 100px 0 50px 0;
+}
+
+.webinar-contact-form input[type="submit"] {
+    width: 100px;
+}
+
+@media (max-width: 813px) {
+
+    .footer-alegada {
+        text-align: center !important;
+    }
+
+    .footer-head {
+        text-align: center !important;
+    }
+
+    .footer-company {
+        text-align: center !important;
+    }
+
+    .footer-address {
+        text-align: center !important;
+    }
+
+    .sp-mask {
+        height: 300px !important;
+    }
+
+    .sp-image-container {
+        height: 300px !important;
+    }
+
+    html .carousel-text h2 {
+        font-size: 20px !important;
+    }
+
+    html .carousel-text h4 {
+        font-size: 12px !important;
+    }
+
+    .carousel-text {
+        top: -210px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .accordion .btn {
+        white-space: inherit;
+    }
+
+    #headingTwo {
+        margin-left: 12px;
+    }
+
+
+    .navbar-brand {
+        position: relative;
+        top: -40px !important;
+    }
+
+    .navbar-brand img {
+        height: 25px;
+    }
+
+    .navbar-toggler-icon {
+
+        height: 1em !important;
+        position: relative !important;
+        top: 0px !important;
+    }
+
+    .navbar .navbar-toggler {
+        display: block !important;
+        position: absolute !important;
+        top: -30px !important;
+        right: 10px;
+    }
+
+
+    .sp-mask {
+        height: 250px !important;
+    }
+
+    .sp-image-container {
+        height: 250px !important;
+    }
+
+    html .carousel-text h2 {
+        font-size: 20px !important;
+    }
+
+    html .carousel-text h4 {
+        font-size: 12px !important;
+    }
+
+    .carousel-text {
+        top: -110px !important;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    .nav {
+        display: none;
+        overflow: auto;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.95);
+        height: 100%;
+        top: 0;
+        padding-top: 15%;
+        z-index: 100;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    .close-nav {
+        display: block !important;
+    }
+
+    .navbar .navbar-toggler {
+        display: block !important;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .section-3 .box-1 h3 {
+        text-align: center;
+    }
+    .block-box .box-text-right {
+        text-align: center;
+    }
+    .webinar-link {
+        text-align: center;
+        float: none;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    html .carousel-text h2 {
+        font-size: 30px !important;
+    }
+
+    html .carousel-text h4 {
+        font-size: 20px !important;
+    }
+
+    .carousel-text {
+        top: -110px !important;
+    }
+
+}
+
+@media (min-width: 764px) and (max-width: 992px) {
+
+    html .carousel-text h2 {
+        font-size: 30px !important;
+    }
+
+    html .carousel-text h4 {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 764px) and (max-width: 1450px) {
+    .slide-info-right {
+        margin-left: 25vw !important;
+    }
+}
+
+.slide-info-left h2, .slide-info-left h4, .slide-info-right h2, .slide-info-right h4 {
+    text-align: left;
+}
+
+.nav .active a:not(.dropdown-item) {
+    display: inline-block;
+    position: relative;
+}
+
+.form input:-webkit-autofill,
+.form input:-webkit-autofill:hover,
+.form input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 100px #C8BBA9 inset;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.contact-form-section input:-webkit-autofill,
+.contact-form-section input:-webkit-autofill:hover,
+.contact-form-section input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 100px #F2F2F2 inset;
+    -webkit-text-fill-color: #444444;
+}
+
+/*
+Life in canada page
+ */
+/*.life-in-canada {*/
+/*    position: relative;*/
+/*    background-image: url("../images/event/banner_event.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+.text-transform-upper {
+    text-transform: uppercase;
+}
+
+.organized-by {
+    padding-bottom: 100px;
+}
+
+.organized-by-title {
+    font-family: "Libre Baskerville";
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    color:#071141 ;
+}
+
+#mobile-register, #webinar-form-section {
+    display: none
+}
+
+@media (max-width: 767px) {
+    #mobile-register, #webinar-form-section {
+        display: block;
+    }
+
+    .webinar-contact-form {
+        padding: 50px 0;
+    }
+
+    #register-form {
+        display: none;
+    }
+
+    .organized-by-section {
+        margin-bottom: 2rem;
+    }
+
+    .organized-by {
+        padding: 10% 0%;
+    }
+    .event-table {
+        border-right: none;
+        margin-bottom: 30px;
+    }
+    .host-container {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .res-margin{
+        margin: 0;
+    }
+    .img-margin{
+        margin-top: 15px;
+    }
+}
+
+ul.organized-by-list li::before {
+    border-color: transparent #212529;
+}
+ul.organized-by-list li {
+    color: #212529 !important;
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    opacity: 1;
+}
+.organized-by-section{
+    font-weight: 300;
+    font-size: 15px;
+}
+ul.list-left.color-white{
+    margin-left: -20px;
+}
+.venue-name{
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+    .registration-form-section{
+        margin-left: auto;
+    }
+}
+ol.ordered-list .par-head-h4{
+    font-size: 16px;
+}
+ol.ordered-list{
+
+}
+ol.ordered-list li::marker {
+    color: #071141;
+    font-weight: 300;
+}
+.empty-back{
+    padding-top: 10vw !important;
+}
+.edit_thumbmail {
+    max-width: 270px;
+    max-height: 250px;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+}
+.news-summary{
+    font-style: italic;
+}
+.sidebar-thumbnail {
+    margin-right: 20px;
+}
+.thumbnail-img{
+
+}
+.img-container{
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.img-container img{
+
+}
+.about-event ul.list-left li{
+    color: black;
+}
+.section-10{
+    padding: 50px 0;
+}
+.webinar-link {
+    font-size: 11pt;
+    font-weight: 100;
+    float: right;
+}
