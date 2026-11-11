@@ -1,0 +1,35 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project: Alegada
+Version:  1.0
+Assigned to:  Templines
+Primary use: Alegada
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Roboto:100,300,300i,400,400i,500,500i,700,700i';
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+
+
+/* PLUGIN CSS */
+
+@import '../libs/bootstrap/bootstrap-grid.css';                /* bootstrap */
+@import '../libs/bootstrap/bootstrap.min.css';                /* bootstrap */
+@import '../libs/headers/header.css';                /* header */
+@import '../libs/headers/yamm.css';                /* header */
+@import '../libs/slider-pro/slider-pro.css';         /* main slider */
+@import '../libs/owl-carousel/owl.theme.css';                 /* other sliders */
+@import '../libs/bxslider/jquery.bxslider.css';                 /* other sliders */
+@import '../libs/magnific-popup/magnific-popup.css';            /* modal */
+@import '../libs/animate/animate.css';                        /* animations */
+
+
+
+/* MAIN CSS */
+@import 'custom.css';
+@import 'theme.css';
+@import 'forum.css';
+@import 'color.css';
+@import 'responsive.css';
